@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.238",
+    "typescript": "^5.1.3"
+  }
 }
