@@ -5,13 +5,14 @@
       "useDefineForClassFields": true,
       "module": "ESNext",
       "rootDir": "./src",
-      "outDir": "./dist",
       "moduleResolution": "node",
       "baseUrl": "src",
       "resolveJsonModule": true,
       "allowJs": true,
       "checkJs": true,
       "removeComments": true,
+      "noEmit": true,
+      "isolatedModules": true,
       "esModuleInterop": true,
       "strict": true,
       "noImplicitAny": true,
@@ -20,6 +21,6 @@
       "noImplicitReturns": true,
       "skipLibCheck": true
       },
-      "include": ["src"],
+      "include": ["src", "dist/content_scripts.js", "dist/popup.js", "dist/constants.js"],
       "exclude": ["node_modules", "dist", "./tsconfig.json"]
   }

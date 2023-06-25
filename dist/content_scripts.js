@@ -1,8 +1,1 @@
-import { HELLO } from './constants';
-const $body = document.querySelector('body');
-const $helloContent = document.createElement('div');
-$helloContent.className = 'hello-content';
-$helloContent.innerHTML = `${HELLO} content scripts`;
-if ($body) {
-    $body.appendChild($helloContent);
-}
+import{H as n}from"./assets/constants-ef19a7b6.js";const t=document.querySelector("body"),e=document.createElement("div");e.className="hello-content";e.innerHTML=`${n} content scripts`;t&&t.appendChild(e);

@@ -1,8 +1,8 @@
 import { HELLO } from './constants.js';
-
+ 
 const $body = document.querySelector('body');
+const $p = document.createElement('p');
 $p.innerHTML = `${HELLO} Popup`;
-$p.innerHTML = 'Hello Popup';
 if ($body) {
-  $body.appendChild($p);
-}
+    $body.appendChild($p);
+  }
