@@ -1,1 +1,1 @@
-import{H as n}from"./assets/constants-ef19a7b6.js";const t=document.querySelector("body"),e=document.createElement("div");e.className="hello-content";e.innerHTML=`${n} content scripts`;t&&t.appendChild(e);
+(function(){"use strict";const n="Hello",t=document.querySelector("body"),e=document.createElement("div");e.className="hello-content",e.innerHTML=`${n} content scripts`,t&&t.appendChild(e)})();
